@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="SportX_nome.png" type="image/png">
+    <title>SportX</title>
+</head>
+    <style>
+        @media screen and (max-width:800px){
+          .redessociais{
+            display: none;
+          }
+        }
+      .divinformacao{
+        padding: 2vh;
+        border-bottom: 2px solid rgb(20, 20, 20);
+        background-color: rgb(17, 17, 17);
+        padding: 20px;
+        border-bottom: 2px solid rgb(40, 40, 40);
+            }
+      .divtrasmissão{
+        background: linear-gradient( rgba(255, 0, 0, 0.153), rgb(1, 1, 1));
+        padding: 10vh 2vh 2vh 2vh;
+        border-bottom: 2px solid rgb(40, 40, 40);
+        display: flex;
+        justify-content: center;
+      }
+      .titulogrande{
+        color: rgb(234, 234, 234);
+        font-family: Helvetica, sans-serif;
+        font-size: 70px;
+      }
+      .titulo{
+        color: rgb(234, 234, 234);
+        font-family: Helvetica, sans-serif;
+        font-size: 25px;
+      }
+      .texto{
+        font-family: Helvetica;
+        font-size: 18px;
+        color: rgb(182, 182, 182);
+      }
+      body{
+        margin: 0px;
+        background-color: black;
+        z-index: 1;
+      }
+      header{
+      background-color: rgb(5, 5, 5);
+      height: 12vh;
+      margin: 0;
+      align-items: center;
+      border-bottom: 3px solid rgb(194, 30, 30);
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+      z-index: 2;
+      }    
+      .redessociais{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        transition: 0.2s;        
+      }
+      .link{
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        transition: 0.2s;
+      }
+      .link:hover{
+        color: red;
+      }
+      .esquerda{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+      }
+      .noticias{
+        background-color: rgb(5, 5, 5);
+        margin: 0px;
+        padding: 2vh;
+      }
+      .divimagemtrasmissao{
+        padding: 2vh;
+        justify-content: center;
+      }
+      .imagemtrasmissao{
+        border-radius: 10px;
+         border: 1px solid white;
+         height: 300px;
+         width: auto;
+         transition: 0.2s;
+      }
+        .imagemtrasmissao:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+            }
+        img{
+          max-width: auto;
+          height: auto;
+        }
+        .imgrede:hover{
+        transform: scale(1.2);
+        transition: 0.2s;          
+        }
+    </style>
+<body>
+  <main>
+  <header>
+    <div class="esquerda">
+    <img src="SportXLogo.png" alt="SportX" width="200vw" height="80vh"> 
+    <a class="link"href="ultimosjogos">JOGOS</a>
+    </div>
+    <div class="redessociais">
+      <img class="imgrede"src="YouTube_Logo.png" alt="Youtube" height="100vh" width="100vh">
+      <img class="imgrede"src="TwiterLogo.png" alt="X" height="70vh" width="70vh">
+    </div>
+  </header>
+<div class="divtrasmissão">
+  <div style="margin: 10vh;">
+    <h1 class="titulogrande">Transmissões de<span style="color: rgb(212, 13, 13);"><br>Futebol ao Vivo</span></h1>
+    <p class="texto">Assista aos melhores jogos do mundo em alta definição e muito mais em um só lugar.</p>
+  </div>
+  <div style="padding: 10vh;">
+  <img class="imagemtrasmissao"src="Harrykane.png" style="border-radius: 10px; border: 2px solid white;" height="200px"; width="auto";>
+  </div>
+</div>
+<div class="divinformacao">
+    <h1 style="text-align: center;"class="titulo">Quem somos?</h1>
+    <div style="padding: 20px 5vh 20px 20vh;">
+    <p style="text-align: center;"class="texto">A Sportx é uma empresa focada e especializada em transmissão esportiva há mais de
+       20 anos no mercado, ela surgiu da vontade de consumir esporte de maneira mais acessível
+        mas sem perder a qualidade. Nós sempre estamos buscando evolução e qualidade no que a
+         gente faz de melhor - entregar uma transmissão de qualidade máxima ao nosso consumidor!
+    </p>  
+    </div>
+</div>
+<div class="noticias">
+    <h1 class="titulogrande" style="text-align: center;">NOTÍCIAS</h1>
+</div>
+</main>
+</body>
+</html>
