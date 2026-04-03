@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+ body{  
+    background: radial-gradient( rgba(179, 164, 164, 0.516), rgb(0, 0, 0));
+    background-color: rgb(0, 0, 0);
+ }
+.interface{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+/* *Estilo do cabeçalho*/
+      header{
+      background-color: rgb(5, 5, 5);
+      border: 1px solid white;      
+      }
+      header > .interface{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header .logotipocabecalho img{
+        max-width: 200px;
+      }
+    header nav.menu ul{
+        display: flex;
+        list-style: none;
+        gap: 26px;
+        color: white;
+    }
+        header nav.menu a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;     
+        }
+        header nav.menu li:hover{
+            color: red;
+            transition: 0.2s;
+    }
+    .div-inteira{
+        margin: 50px auto;
+        max-width: 1400px;
+        padding: 0 4%; 
+    }
+    .interface-topo{
+        max-width:1600px;
+        padding: 0 4%;
+        margin: 0px auto;
+        background: radial-gradient( rgba(255, 0, 0, 0.153), rgb(1, 1, 1));
+        background-color: black;
+        text-align: center;
+        border-bottom: 2px solid transparent;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        background-clip: padding-box;
+    }
+     .interface-topo h1{
+        color: rgb(234, 234, 234);
+        font-size: 70px;
+        line-height: 1.1;
+        padding: 10px;
+     }
+    .interface-topo p{
+        font-size: 18px;
+        color: rgb(182, 182, 182);
+        padding: 20px;
+     }
+         .interface-topo img{
+            width: auto;
+            height: 350px;
+            transition:0.5s;
+            border-radius: 10px;
+            border: 2px solid white;
+     }
+     .segundo-botao-jogos{
+        background-color: white;
+        margin-bottom: 30px;
+        width: 240px;
+        height: auto;
+        justify-self: center;
+        border-radius: 10px;
+        border: 2px solid black;
+        text-align: center;
+     }
+     .segundo-botao-jogos h2{
+        color: rgb(0, 0, 0);
+        transition: 0.2s;
+     }
+    .segundo-botao-jogos h2:hover{
+        color: red;
+        transition: 0.2s;
+          }
+        .interface-topo img:hover{
+        transform: scale(1.05);
+        transition:0.5s;
+     }
+        .botao-jogos{
+            font-size: 30px;
+            color: white;
+        }
+        .primeira-imagem{
+            padding-bottom: 20px;
+        }
+        .informacoes-empresa{
+            text-align: center;
+            background-color: rgb(27, 27, 27);
+            padding: 50px;
+            padding-left: 100px;
+            padding-right: 100px;
+            border-bottom: 2px solid transparent;
+            background-clip: padding-box;
+        }
+        .informacoes-empresa h2{
+            color: rgb(255, 255, 255);
+            padding-bottom: 20px;
+        }
+        .informacoes-empresa p{
+            color: rgb(182, 182, 182);
+        }
+        .noticias{
+            background-color: rgb(9, 9, 9);
+            text-align: center;
+            padding: 50px;
+            padding-left: 100px;
+            padding-right: 100px;
+            border-bottom: 2px solid transparent;
+            background-clip: padding-box;
+        }
+        .noticias h2{
+            color: white;
+        }
+    @media screen and (max-width:800px){
+        .div-inteira{
+        margin: 10px;
+        margin-top: 20px;
+        padding: 0;
+         }
+    .interface-topo{
+        padding-top: 20px;
+    }
+    .interface-topo img{
+        height: 150px;
+        width: auto;
+    }
+         .interface-topo h1{
+        font-size: 30px;
+}
+    .interface-topo p{
+        font-size: 15px;
+        padding: 10px;
+        padding-bottom: 20px;
+     }
+     .informacoes-empresa{
+        padding: 20px;
+     }
+     .informacoes-empresa h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+     }
+     .informacoes-empresa p{
+        font-size: 15px;
+     }
+
+    }
