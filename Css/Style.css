@@ -192,5 +192,14 @@
      .informacoes-empresa p{
         font-size: 15px;
      }
-
+    header nav.menu ul{
+        gap: 16px;
+    }
+    header nav.menu a{
+        font-size: 0.8rem;     
+        }
+    header img{
+        width: 150px;
+        height: auto;
+    }
     }
