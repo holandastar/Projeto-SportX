@@ -55,12 +55,13 @@
         max-width:1600px;
         padding: 0 4%;
         margin: 0px auto;
-        background-color: black;
+        background-color: rgb(22, 22, 22);
         text-align: center;
         border-bottom: 2px solid transparent;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         background-clip: padding-box;
+        padding-top: 20px;
         }
     .interface-topo-jogos h1{               
         color: rgb(234, 234, 234);
@@ -156,6 +157,50 @@
         .noticias h2{
             color: white;
         }
+        .div-tabelas{
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .jogos-tabela {
+            background-color: black;
+            border-radius: 10px;
+            justify-content: space-between;
+            padding: 20px;
+            padding-top: 0;
+            width: 400px;
+            align-items: center;
+            margin: 20px;
+            border: 2px solid rgb(80, 80, 80);
+        }
+        .jogos-tabela p{
+            color: white;
+            text-align: center;
+            margin: 0;
+            line-height: 1.2;
+        }
+        .jogos-tabela img{
+            width: 50px;
+        }
+        .competicao p{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            color: rgb(0, 0, 0);
+            border: 2px solid rgb(47, 47, 47);
+            background-color: azure;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .jogos {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+        }
     @media screen and (max-width:800px){
         .div-inteira{
         margin: 10px;
@@ -173,6 +218,9 @@
         width: auto;
     }
          .interface-topo h1{
+        font-size: 30px;
+}
+         .interface-topo-jogos h1{
         font-size: 30px;
 }
     .interface-topo p{
@@ -201,5 +249,25 @@
     header img{
         width: 150px;
         height: auto;
+    }
+    .div-tabelas {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .jogos-tabela{
+        margin: 5px;
+        width: 300px;
+        padding: 10px;
+    }
+    
+    .jogos img{
+        width: 30px;
+        height: auto;
+    }
+    .jogos p{
+        font-size: 15px;
+    }
+    .competicao p{
+        margin-top: 2px;
     }
     }
