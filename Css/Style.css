@@ -63,6 +63,9 @@
         border-top-left-radius: 20px;
         background-clip: padding-box;
         padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         }
     .interface-topo-jogos h1{               
         color: rgb(234, 234, 234);
@@ -81,7 +84,6 @@
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         background-clip: padding-box;
-    
     }
      .interface-topo h1{
         color: rgb(234, 234, 234);
@@ -325,6 +327,30 @@
         .calendario h3{
             margin: 20px;
         }
+        .tabela-brasileirao table{
+            border-collapse: collapse;
+            margin: 20px;
+            
+            
+        }
+        .tabela-brasileirao{
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        .tabela-brasileirao th,td{
+            color: #EAEAEA;
+            border: 2px solid rgb(255, 255, 255);
+            padding: 10px;
+            background-color: #2a2a2a;
+        }
+        .tabela-brasileirao tr{
+            color: #CFCFCF;
+
+        }
+        .tabela-brasileirao th{
+            background-color: #191919;
+             position: sticky;
+        }
     @media screen and (max-width:1150px){
         .div-inteira{
         margin: 0px;
@@ -420,6 +446,10 @@
         width: 300px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+        }
+        .tabela-brasileirao{
+            max-width: 340px;
+            overflow-x: auto;
         }
 }
     @media screen and (max-width:700px){
