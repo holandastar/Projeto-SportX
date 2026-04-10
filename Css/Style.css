@@ -221,6 +221,7 @@
             background-color: #EAEAEA;
         }
         .bloco-noticias img{
+            max-height: 240px;
             width: 350px;
             height: auto;
         }
@@ -291,6 +292,8 @@
         }
         .descricao-noticia {
             padding-top: 5px;
+            padding-left: 12px;
+            padding-right: auto;
             padding-bottom: 40px;
             border-bottom: 2px solid rgb(100, 100, 100) ;
         }
@@ -298,10 +301,17 @@
             color: #CFCFCF;
         }
         .noticia-texto p{
+            color: #CFCFCF;
+            text-align: left;
+            margin: 5px;
+            padding: 12px;
+        }
+        .descricao-noticia h2{
             color: white;
             text-align: left;
             margin: 5px;
             padding: 12px;
+            border-bottom: none;
         }
         .calendario h3,p{
             color: #EAEAEA;
@@ -392,7 +402,7 @@
         justify-content: center;
         }
     .bloco-noticias img{
-        width: 220px;
+        width: 190px;
         height: auto;
     }
     .interface-interna-noticias{
